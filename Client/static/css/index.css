@@ -1,0 +1,11 @@
+body{text-align: center; background-color: #33868a;}
+.box-shadow{box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.3);}
+.main{width: 823px; height: 677px;border: 1px solid #cccdce;  margin: 0px auto; padding: 0px auto;text-align: left; }
+#msg{width: 100%; height: 600px;background-color: #ffffff; line-height: 30px;}
+.show_send{width: 100%;height: 77px; background-color: #eeeeee;}
+#text{width: 600px; height: 62px; line-height: 62px; margin-top: 5px;float: left; margin-left: 5px;font-size: 40px;}
+.send_button{width: 205px; height: 67px; line-height: 67px; margin-top: 5px;float: left; margin-left: 5px;font-size: 20px;}
+#setName{ background-color: #eeeeee;border-radius: 3px; width: 600px; height: 77px;border: 1px solid #cccdce;margin:0px auto;padding: 0px auto; margin-top: 300px;}
+#myname{width: 400px; height: 62px; line-height: 62px; margin-top: 5px;float: left; margin-left: 5px;font-size: 40px;}
+.setUserName{width: 180px; height: 67px; line-height: 67px; margin-top: 5px;float: left; margin-left: 5px;font-size: 20px;}
+

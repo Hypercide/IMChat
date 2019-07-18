@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title id="myTitle">IM</title>
+    <link rel="stylesheet" href="static/css/index.css"/>
+</head>
+<body>
+    <!--发送信息-->
+    <div id="send_msg" class="main box-shadow" style="display: none;" >
+        <div id="msg"></div>
+        <div class="show_send">
+            <input type="text" id="text"><input class="send_button" type="submit" value="发送数据" onclick="send_msg()">
+        </div>
+    </div>
+    <!--设置昵称-->
+    <div id="setName" class="box-shadow" style="display: block;">
+        <input type="text" id="myname"/>
+        <input type="submit" class="setUserName" value="设置昵称" onclick="send_name()"/>
+    </div>
+</body>
+<script type="text/javascript" src="static/js/jquery-3.2.0.min.js"></script>
+<script type="text/javascript" src="static/js/webSocket.js"></script>
+<script type="text/javascript" src="static/js/index.js"></script>
+</html>
